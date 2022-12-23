@@ -1,5 +1,5 @@
 # Service-PCS (Professionals, Clients and Services)
-Monorepo with microsservices using Java 17 and native compilation with GraalVM
+Monorepo with microsservices using **JAVA 17** and **GraalVM** to native compilation
 
 ### To run this tutorial, I used the following tools:
 
