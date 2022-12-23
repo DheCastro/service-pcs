@@ -29,7 +29,7 @@ Check configuration in terminal with command: `$ mvn -v`
 > You must see something like this
 ![](/professional-service/src/main/resources/images/maven_config.PNG)
 
-### More Settings (Docker and K8s)
+### More Settings to Install (Docker and K8s)
 
 - **Docker Desktop** - v4.15.0: (93002): <br />
 https://www.docker.com/products/docker-desktop/
