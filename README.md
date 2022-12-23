@@ -14,6 +14,8 @@ https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/graalvm
     + Add **_%GRAALVM_HOME%\bin_** to the **_PATH_** env
     
 Check configuration in terminal with command: `$ java -version`    
+> You must see something like this
+![](/professional-service/src/main/resources/images/graalvm_config.PNG)
 
 + **Apache Maven 3:** <br />
 https://archive.apache.org/dist/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.zip
@@ -24,6 +26,8 @@ https://archive.apache.org/dist/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-
     + Add **_%M2_HOME%\bin_** to the **_PATH_** env
 
 Check configuration in terminal with command: `$ mvn -v`
+> You must see something like this
+![](/professional-service/src/main/resources/images/maven_config.PNG)
 
 ### More Settings (Docker and K8s)
 
