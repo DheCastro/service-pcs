@@ -24,14 +24,20 @@ https://github.com/kubernetes/dashboard/releases/tag/v2.4.0
 - **Traditional mode (JIT compilation)** <br />
 **Build:** `$ mvn clean install` <br />
 **Run:** from your preferred IDE (STS, Intellij...)
+> Result traditional compilation (just in time)
+![](/professional-service/src/main/resources/images/professional_service_normal_start.PNG)
 
 - **Native executable (AOT compilation)** <br />
 **Build:** `$ mvn clean install -Pnative` <br />
 **Run:** inside the target folder, run the .exe (Windows)
+> Result native compilation (ahead of time)
+![](/professional-service/src/main/resources/images/professional_service_native_start.PNG)
 
 - **Docker Image with native binary** <br />
 **Build:** `$ mvn clean install -Pdocker` <br />
 **Run:** `$ docker run -p 8080:8080 example-service`
+> Result native compilation to docker image
+![](/professional-service/src/main/resources/images/professional_service_native_docker_start.PNG)
 
 ### When deploying the application, you can verify the deployment and pods through the Kubernetes dashboard. Including expansion and reduction of the service as well:
 
