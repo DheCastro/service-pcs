@@ -41,6 +41,8 @@ https://github.com/kubernetes/dashboard/releases/tag/v2.4.0
 
 ### When deploying the application, you can verify the deployment and pods through the Kubernetes dashboard. Including expansion and reduction of the service as well:
 
+_Note: in the commands below, use apply to provision resources and delete to remove them_
+
 - To install the kubernetes dashboard (kubernetes-dashboard namespace), run the command: <br />
 `$ kubectl apply/delete -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.4.0/aio/deploy/recommended.yaml`
 
